@@ -1,6 +1,6 @@
 # This file was generated automatically from conda-smithy. To update this configuration,
 # update the conda-forge.yml and/or the recipe/meta.yaml.
-# -*- mode: yaml -*-
+# -*- mode: toml -*-
 
 [project]
 name = "conda-forge-ci-setup-feedstock"
@@ -11,7 +11,7 @@ channels = ["conda-forge"]
 platforms = ['linux-64', 'linux-aarch64', 'linux-ppc64le', 'osx-64', 'win-64']
 
 [dependencies]
-conda-build = "None"
+conda-build = "*"
 conda-forge-ci-setup = "4.*"
 python = "3.12.*"
 conda = "*"
